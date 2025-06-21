@@ -1,0 +1,14 @@
+{
+  "rust-analyzer.rustc.source": "$HOME/.rustup/toolchains/stable-aarch64-apple-darwin/bin/rustc",
+  "rust-analyzer.cargo.extraEnv": {
+    "RUSTUP_TOOLCHAIN": "stable"
+  },
+  "rust-analyzer.check.command": "build",
+  "rust-analyzer.check.extraArgs": [
+    "--target=bpfel-unknown-unknown"
+  ],
+  "rust-analyzer.diagnostics.disabled": [
+    "unresolved-proc-macro"
+  ],
+  "rust-analyzer.rustfmt.extraArgs": ["--edition=2021"]
+}
