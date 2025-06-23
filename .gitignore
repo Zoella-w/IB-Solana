@@ -1,0 +1,26 @@
+# 通用 Rust 项目忽略规则
+**/target/
+**/Cargo.lock  # 库项目不提交，可执行项目酌情提交
+**/.cargo-ok
+
+# 编辑器/IDE 文件
+**/.idea/
+**/.vscode/
+**/.settings/
+**/*.code-workspace
+
+# 编译文件
+**/*.rs.bk
+**/*.d
+
+# 依赖缓存
+**/.cargo/registry/
+**/.cargo/git/
+
+# 环境文件
+**/.env
+**/*.env
+
+# 系统文件
+**/.DS_Store
+**/Thumbs.db
